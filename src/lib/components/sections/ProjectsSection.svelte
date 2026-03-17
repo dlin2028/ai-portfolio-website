@@ -1,5 +1,6 @@
 <script lang="ts">
   import { inView } from '$lib/actions/inView';
+  import { base } from '$app/paths';
   import type { Project } from '$lib/types/portfolio';
 
   let { projects }: { projects: Project[] } = $props();
@@ -45,7 +46,7 @@
           <!-- Image -->
           <div class="relative overflow-hidden" style="aspect-ratio: 16/9;">
             <img
-              src="/{project.image}"
+              src="{base}/{project.image}"
               alt={project.name}
               class="w-full h-full object-cover"
               loading="lazy"

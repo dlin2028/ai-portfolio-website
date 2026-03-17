@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { page } from '$app/state';
   import { isMenuOpen, activeSection } from '$lib/stores/navigation';
 
   const navItems = [

@@ -1,5 +1,6 @@
 <script lang="ts">
   import { inView } from '$lib/actions/inView';
+  import { base } from '$app/paths';
   import type { Technology } from '$lib/types/portfolio';
 
   let { technologies }: { technologies: Technology[] } = $props();
@@ -67,7 +68,7 @@
             aria-label={tech.name}
           >
             <img
-              src="/{tech.icon}"
+              src="{base}/{tech.icon}"
               alt={tech.name}
               class="w-8 h-8 object-contain"
               loading="lazy"

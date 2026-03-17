@@ -1,5 +1,6 @@
 <script lang="ts">
   import { inView } from '$lib/actions/inView';
+  import { base } from '$app/paths';
   import type { Experience } from '$lib/types/portfolio';
 
   let { experiences }: { experiences: Experience[] } = $props();
@@ -73,7 +74,7 @@
                   style="background: {exp.iconBg}; border: 1px solid rgba(26,61,107,0.8);"
                 >
                   <img
-                    src="/{exp.icon}"
+                    src="{base}/{exp.icon}"
                     alt={exp.company_name}
                     class="w-8 h-8 object-contain"
                     loading="lazy"
