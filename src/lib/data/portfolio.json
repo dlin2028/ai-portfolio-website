@@ -79,7 +79,7 @@
         "flask"
       ],
       "image": "assets/projects/cherry.png",
-      "source_code_link": ""
+      "source_code_link": "https://github.com/open-source-at-illinois/cherry"
     },
     {
       "name": "ChannelAdder",
