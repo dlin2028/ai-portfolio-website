@@ -14,7 +14,7 @@
   }
 
   function hasValidSourceLink(link: string): boolean {
-    return Boolean(link && link.trim() && link !== 'https://github.com/');
+    return Boolean(link && link.trim());
   }
 </script>
 
