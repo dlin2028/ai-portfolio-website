@@ -61,56 +61,56 @@
       "description": "Real-time quantitative options trading bot built on the QuantConnect platform. Used for backtesting and live paper trading my proprietary options valuation framework.",
       "tags": ["options", "quantconnect", "quant"],
       "image": "assets/projects/trading.png",
-      "source_code_link": "https://github.com/"
+      "source_code_link": "https://github.com/dlin2028/iron-condor"
     },
     {
       "name": "Cherry",
       "description": "Web application that enables users to easily search for courses offered at UIUC.",
       "tags": ["react", "python", "flask"],
       "image": "assets/projects/cherry.png",
-      "source_code_link": "https://github.com/"
+      "source_code_link": "https://github.com/dlin2028"
     },
     {
       "name": "ChannelAdder",
       "description": "A tensorflow program which attempts to upmix stereo sound into 5.1 surround sound.",
       "tags": ["python", "tensorflow", "ML"],
       "image": "assets/projects/upmix.png",
-      "source_code_link": "https://github.com/"
+      "source_code_link": "https://github.com/dlin2028/ChannelAdder"
     },
     {
       "name": "Ebay UMLC",
       "description": "eBay 2022 University Machine Learning Competition, placing top 10 with a 90% NER accuracy.",
       "tags": ["python", "SpaCy", "NER"],
       "image": "assets/projects/ebay.png",
-      "source_code_link": "https://github.com/"
+      "source_code_link": "https://github.com/dlin2028/ebay-umlc"
     },
     {
       "name": "CrashModeArchitecture",
       "description": "A buggy architecture which has its own programming and assembly language including an assembler, disassembler, compiler, and emulator.",
       "tags": ["C#", "asm", "programming-languages"],
       "image": "assets/projects/crash.png",
-      "source_code_link": "https://github.com/"
+      "source_code_link": "https://github.com/dlin2028"
     },
     {
       "name": "Linux Kernel",
       "description": "Supported memory paging, i8259 PIC interrupt handling, exception handling, keyboard input buffer, in memory read-only filesystem, round-robin scheduling based on Programmable Interrupt Timer with multiple tele-terminals.",
       "tags": ["linux", "systems-engineering", "terminal"],
       "image": "assets/projects/linux.png",
-      "source_code_link": "https://github.com/"
+      "source_code_link": "https://github.com/dlin2028"
     },
     {
       "name": "LC-3 in SystemVerilog",
       "description": "Created a fully functional LC-3 Computer in SystemVerilog, which is an instruction set supported by gcc.",
       "tags": ["computer-engineering", "systems-engineering", "system-verilog"],
       "image": "assets/projects/lc3.png",
-      "source_code_link": "https://github.com/"
+      "source_code_link": "https://github.com/dlin2028"
     },
     {
       "name": "RISC-V Processor Verification",
       "description": "Wrote full instruction verification and cross-validation test bench for a RISC-V processor in system verilog.",
       "tags": ["computer-engineering", "systems-engineering", "system-verilog"],
       "image": "assets/projects/riscv.png",
-      "source_code_link": "https://github.com/"
+      "source_code_link": "https://github.com/dlin2028"
     }
   ],
 
