@@ -1,0 +1,132 @@
+{
+  "personalInfo": {
+    "name": "David Lin",
+    "roles": ["Web Developer", "LLM Integrator", "Backend Developer", "Systems Engineer"]
+  },
+
+  "experiences": [
+    {
+      "title": "Software Engineer II",
+      "company_name": "Fitch Solutions",
+      "icon": "assets/company/fitch.png",
+      "iconBg": "#383E56",
+      "date": "Jan 2024 - Jan 2026",
+      "points": [
+        "Rebuilt existing search backend with ElasticSearch, consolidating two separate backends to one after company merger.",
+        "Reduced backend maintenance by 80% and licensing cost by $300k/yr.",
+        "Redesigned and implemented new search-pagination API for our highest value clients.",
+        "Assumed Release Coordinator role for globally deployed suite of microservices underpinning core platform."
+      ]
+    },
+    {
+      "title": "Software Engineer Intern",
+      "company_name": "Estee Lauder Companies",
+      "icon": "assets/company/elc.png",
+      "iconBg": "#E6DEDD",
+      "date": "Jun 2023 - Aug 2023",
+      "points": [
+        "Developed a customer experience chatbot to replace existing Live Chat which drives 5% of ecommerce sales.",
+        "Improved average response time from 90 seconds to under 2 seconds which quadrupled chat traffic.",
+        "Presented directly to the Global Brand President, after receiving unprecedented approval from both our immediate manager and senior management—a first for any intern initiative."
+      ]
+    },
+    {
+      "title": "Software Engineer Intern",
+      "company_name": "Oppo (OnePlus)",
+      "icon": "assets/company/oppo.png",
+      "iconBg": "#383E56",
+      "date": "Jun 2022 - Aug 2022",
+      "points": [
+        "Spearheaded an intern team to develop a demo AR chat app for prototype holographic glasses developed overseas.",
+        "Ported and set up hardware-accelerated cross-compiling of existing cpp codebase for new prototype hardware.",
+        "Developed a high efficiency low-latency media streaming pipeline optimized for live online user interactions."
+      ]
+    },
+    {
+      "title": "Contract Software Engineer",
+      "company_name": "Potions and Pixels",
+      "icon": "assets/company/pap.png",
+      "iconBg": "#E6DEDD",
+      "date": "Nov 2020 - Apr 2021",
+      "points": [
+        "Developed an advanced AR experience using Unity Engine and C# with ARFoundation, allowing users at specific locations, such as street corners, to interact with realistic Augmented Reality representations of historical structures and artifacts blended into their real-world surroundings.",
+        "Secured $55k contract with demo, documented and designed the source code as the basis for final product."
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "Options Trading Bot",
+      "description": "Real-time quantitative options trading bot built on the QuantConnect platform. Used for backtesting and live paper trading my proprietary options valuation framework.",
+      "tags": ["options", "quantconnect", "quant"],
+      "image": "assets/projects/trading.png",
+      "source_code_link": "https://github.com/"
+    },
+    {
+      "name": "Cherry",
+      "description": "Web application that enables users to easily search for courses offered at UIUC.",
+      "tags": ["react", "python", "flask"],
+      "image": "assets/projects/cherry.png",
+      "source_code_link": "https://github.com/"
+    },
+    {
+      "name": "ChannelAdder",
+      "description": "A tensorflow program which attempts to upmix stereo sound into 5.1 surround sound.",
+      "tags": ["python", "tensorflow", "ML"],
+      "image": "assets/projects/upmix.png",
+      "source_code_link": "https://github.com/"
+    },
+    {
+      "name": "Ebay UMLC",
+      "description": "eBay 2022 University Machine Learning Competition, placing top 10 with a 90% NER accuracy.",
+      "tags": ["python", "SpaCy", "NER"],
+      "image": "assets/projects/ebay.png",
+      "source_code_link": "https://github.com/"
+    },
+    {
+      "name": "CrashModeArchitecture",
+      "description": "A buggy architecture which has its own programming and assembly language including an assembler, disassembler, compiler, and emulator.",
+      "tags": ["C#", "asm", "programming-languages"],
+      "image": "assets/projects/crash.png",
+      "source_code_link": "https://github.com/"
+    },
+    {
+      "name": "Linux Kernel",
+      "description": "Supported memory paging, i8259 PIC interrupt handling, exception handling, keyboard input buffer, in memory read-only filesystem, round-robin scheduling based on Programmable Interrupt Timer with multiple tele-terminals.",
+      "tags": ["linux", "systems-engineering", "terminal"],
+      "image": "assets/projects/linux.png",
+      "source_code_link": "https://github.com/"
+    },
+    {
+      "name": "LC-3 in SystemVerilog",
+      "description": "Created a fully functional LC-3 Computer in SystemVerilog, which is an instruction set supported by gcc.",
+      "tags": ["computer-engineering", "systems-engineering", "system-verilog"],
+      "image": "assets/projects/lc3.png",
+      "source_code_link": "https://github.com/"
+    },
+    {
+      "name": "RISC-V Processor Verification",
+      "description": "Wrote full instruction verification and cross-validation test bench for a RISC-V processor in system verilog.",
+      "tags": ["computer-engineering", "systems-engineering", "system-verilog"],
+      "image": "assets/projects/riscv.png",
+      "source_code_link": "https://github.com/"
+    }
+  ],
+
+  "technologies": [
+    { "name": "HTML 5", "icon": "assets/tech/html.png" },
+    { "name": "CSS 3", "icon": "assets/tech/css.png" },
+    { "name": "JavaScript", "icon": "assets/tech/javascript.png" },
+    { "name": "TypeScript", "icon": "assets/tech/typescript.png" },
+    { "name": "React JS", "icon": "assets/tech/reactjs.png" },
+    { "name": "Redux Toolkit", "icon": "assets/tech/redux.png" },
+    { "name": "Tailwind CSS", "icon": "assets/tech/tailwind.png" },
+    { "name": "Node JS", "icon": "assets/tech/nodejs.png" },
+    { "name": "MongoDB", "icon": "assets/tech/mongodb.png" },
+    { "name": "Three JS", "icon": "assets/tech/threejs.svg" },
+    { "name": "git", "icon": "assets/tech/git.png" },
+    { "name": "figma", "icon": "assets/tech/figma.png" },
+    { "name": "docker", "icon": "assets/tech/docker.png" }
+  ]
+}
